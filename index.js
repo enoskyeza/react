@@ -103,7 +103,6 @@ function Header() {
 function SectionContent() {
     return (
         <div>
-            <Header />
             <h1>Reason why I learn React</h1>
             <ul>
                 <li>Was first released inn 2013</li>
@@ -112,7 +111,6 @@ function SectionContent() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-            <Footer />
         </div>
     )
 }
@@ -123,8 +121,17 @@ function Footer() {
     )
 }
 
+function Page() {
+    return (
+        <div>
+            <Header />
+            <SectionContent />
+            <Footer />
+        </div>
+    )
+}
 ReactDOM.render(
-    <SectionContent />,
+    <Page />,
     document.getElementById("root"))
 
 

@@ -1,1 +1,30 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Compiled output
+/dist
+/build
+
+# Environment variables file
+.env
+
+# IDE/Editor specific files
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+
+# Yarn Integrity file
+.yarn-integrity
+
+# macOS folder attributes
+.AppleDouble
 .DS_Store

@@ -57,6 +57,8 @@ Hints:
   just like in HTML. In the slide, I have it set to 40px
  */
 
+/*
+
 const navbar = (
     <div>
         <img src='./react-logo.png' width={ 40 }></img>
@@ -72,3 +74,39 @@ const navbar = (
 )
 
 ReactDOM.render(navbar, document.getElementById("root"))
+
+*/
+
+
+/**
+Challenge 3:
+
+Part 1: Create a page of your own using a custom Page component
+
+It should return an ordered list with the reasons why you're
+excited to be learning React :)
+
+Render your list to the page
+
+ */
+
+function SectionContent () {
+    return (
+        <div>
+            <img src='./react-logo.png' width={ 40 }></img>
+            <h1>Reason why I learn React</h1>
+            <ul>
+                <li>Was first released inn 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100k starts on Github</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
+        </div>
+    )
+}
+
+ReactDOM.render(<SectionContent />, document.getElementById("root"))
+
+
+

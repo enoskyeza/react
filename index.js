@@ -12,7 +12,7 @@
 
 
 
-/* Challenge:
+/* Challenge 1:
 
 Create a navbar in JSX:
     - Use the semantic `nav` element as the parent wrapper
@@ -22,6 +22,39 @@ Create a navbar in JSX:
         "About", and "Contact"
     - Don't worry about styling yet - it'll just be plain-looking HTML for now
 
+ */
+
+/*
+
+const navbar = (
+    <nav>
+        <h1>Bob's Bistro</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render(navbar, document.getElementById("root"))
+
+*/
+
+
+/*
+Challenge 2: Starting from scratch, build and render the
+HTML for our section project. Check the Google slide for
+what you're trying to build.
+
+We'll be adding styling to it later.
+
+Hints:
+* The React logo is a file in the project tree, so you can
+  access it by using `src="./react-logo.png" in your image
+  element
+* You can also set the `width` attribute of the image element
+  just like in HTML. In the slide, I have it set to 40px
  */
 
 const navbar = (

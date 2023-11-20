@@ -1,5 +1,33 @@
 // import React from 'react'
 // import ReactDOM from 'react-dom'
+
+import Header from './Header'
+import MainContent from './MainContent'
+import  Footer from './Footer'
+
+
+function Page() {
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
+    )
+}
+ReactDOM.render(
+    <Page />,
+    document.getElementById("root"))
+
+
+
+
+
+
+
+
+
+
 // import { createRoot } from 'react-dom/client'
 
 
@@ -90,49 +118,6 @@ Render your list to the page
 
  */
 
-function Header() {
-    return (
-        <header>
-            <nav>
-                <img src='./react-logo.png' width='40px'></img>
-            </nav>
-        </header>
-    )
-}
-
-function SectionContent() {
-    return (
-        <div>
-            <h1>Reason why I learn React</h1>
-            <ul>
-                <li>Was first released inn 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has well over 100k starts on Github</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
-            </ul>
-        </div>
-    )
-}
-
-function Footer() {
-    return (
-        <footer>© 2023 Kyeza-development. All rights reserved.</footer>
-    )
-}
-
-function Page() {
-    return (
-        <div>
-            <Header />
-            <SectionContent />
-            <Footer />
-        </div>
-    )
-}
-ReactDOM.render(
-    <Page />,
-    document.getElementById("root"))
 
 
 

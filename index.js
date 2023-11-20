@@ -90,10 +90,20 @@ Render your list to the page
 
  */
 
-function SectionContent () {
+function Header() {
+    return (
+        <header>
+            <nav>
+                <img src='./react-logo.png' width='40px'></img>
+            </nav>
+        </header>
+    )
+}
+
+function SectionContent() {
     return (
         <div>
-            <img src='./react-logo.png' width={ 40 }></img>
+            <Header />
             <h1>Reason why I learn React</h1>
             <ul>
                 <li>Was first released inn 2013</li>
@@ -102,11 +112,20 @@ function SectionContent () {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
+            <Footer />
         </div>
     )
 }
 
-ReactDOM.render(<SectionContent />, document.getElementById("root"))
+function Footer() {
+    return (
+        <footer>© 2023 Kyeza-development. All rights reserved.</footer>
+    )
+}
+
+ReactDOM.render(
+    <SectionContent />,
+    document.getElementById("root"))
 
 
 

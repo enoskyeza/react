@@ -28,3 +28,5 @@ Thumbs.db
 # macOS folder attributes
 .AppleDouble
 .DS_Store
+web.config
+webpack.config.js

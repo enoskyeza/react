@@ -1,12 +1,12 @@
-import React from 'react'
-import logo from './react-logo.png'
+// import React from 'react'
+// import ReactDOM from 'react-dom'
 
 
-const Header = () => {
+export default function Header() {
     return (
         <header>
             <nav className="nav">
-                <img src={ logo } width='60px'></img>
+                <img src='./react-logo.png' width='60px'></img>
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
@@ -16,5 +16,3 @@ const Header = () => {
         </header>
     )
 }
-
-export default Header

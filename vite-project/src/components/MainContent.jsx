@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaSquareGithub } from 'react-icons/fa6'
 import { FaLinkedin } from 'react-icons/fa6'
+import { IconContext } from "react-icons";
 // import ReactDOM from 'react-dom'
 
 // export default function MainContent() {
@@ -40,8 +41,10 @@ const Main = () => {
                 </div>
             </div>
             <div className='digital-card-footer'>
+            <IconContext.Provider value={{ color: "grey", className: "", size: "20px" }}>
                 <a href="#" target='_blank'><FaSquareGithub /></a>
                 <a href="#" target='_blank'><FaLinkedin /></a>
+            </IconContext.Provider>
             </div>
         </div>
     )

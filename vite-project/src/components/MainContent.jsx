@@ -2,6 +2,7 @@ import React from 'react'
 import { FaSquareGithub } from 'react-icons/fa6'
 import { FaLinkedin } from 'react-icons/fa6'
 import { IconContext } from "react-icons";
+import { IoIosMail } from "react-icons/io";
 // import ReactDOM from 'react-dom'
 
 // export default function MainContent() {
@@ -26,11 +27,11 @@ const Main = () => {
             <div className='digital-card-content'>
                 <div className='bio-info'>
                     <h2>Enos Kyeza</h2>
-                    <p>Front End Developer</p>
-                    <p>dev-enos.netifly.app</p>
+                    <p className='dc-position'>Front End Developer</p>
+                    <p className='dc-website'>dev-enos.netifly.app</p>
                     <div className='btn-container'>
-                        <button className='dc-btn dc-btn-light'>Email</button>
-                        <button className='dc-btn dc-btn-blue'>LinkedIn</button>
+                        <button className='dc-btn dc-btn-light'><IoIosMail size={18} style={{ marginRight: '8px' }}/> Email</button>
+                        <button className='dc-btn dc-btn-blue'> <FaLinkedin size={16} style={{ marginRight: '8px' }}/> LinkedIn</button>
                     </div>
                 </div>
                 <div className='about-info'>
@@ -42,8 +43,8 @@ const Main = () => {
             </div>
             <div className='digital-card-footer'>
             <IconContext.Provider value={{ color: "grey", className: "", size: "20px" }}>
-                <a href="#" target='_blank'><FaSquareGithub /></a>
-                <a href="#" target='_blank'><FaLinkedin /></a>
+                <a href="https://github.com/enoskyeza" target='_blank'><FaSquareGithub /></a>
+                <a href="https://www.linkedin.com/in/enos-kyeza-a48447131/" target='_blank'><FaLinkedin /></a>
             </IconContext.Provider>
             </div>
         </div>

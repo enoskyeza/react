@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaSquareGithub } from 'react-icons/fa6'
+import { FaLinkedin } from 'react-icons/fa6'
 // import ReactDOM from 'react-dom'
 
 // export default function MainContent() {
@@ -37,7 +39,10 @@ const Main = () => {
                     <p>Food expert. Music. Reader. Internnet fanatic. Bacon buff. Travel geek. Pop culture ninja. Coffee fanatic.</p>
                 </div>
             </div>
-            <div className='digital-card-footer'></div>
+            <div className='digital-card-footer'>
+                <a href="#" target='_blank'><FaSquareGithub /></a>
+                <a href="#" target='_blank'><FaLinkedin /></a>
+            </div>
         </div>
     )
 }

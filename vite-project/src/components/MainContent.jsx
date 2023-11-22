@@ -3,9 +3,9 @@ import React from 'react'
 
 export default function MainContent() {
     return (
-        <div>
-            <h1>Reason why I learn React</h1>
-            <ul>
+        <div className='main-content'>
+            <h1>Fun facts about React</h1>
+            <ul className='custom-list'>
                 <li>Was first released inn 2013</li>
                 <li>Was originally created by Jordan Walke</li>
                 <li>Has well over 100k starts on Github</li>

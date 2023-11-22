@@ -1,18 +1,18 @@
 import React from 'react'
+import ReactLogo from '../assets/react-logo.png'
 // import ReactDOM from 'react-dom'
 
 
 export default function Header() {
     return (
-        <header>
             <nav className="nav">
-                <img src='./react-logo.png' width='60px'></img>
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+                <div className='nav-left'>
+                    <img src= {ReactLogo}></img>
+                    <p>ReactFacts</p>
+                </div>
+                <div className='nav-right'>
+                    <p>React Course - Project 1</p>
+                </div>
             </nav>
-        </header>
     )
 }

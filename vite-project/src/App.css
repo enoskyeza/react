@@ -1,11 +1,74 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background-color: #282D35;
+    font-family: inter, sans-serif;
+}
+
+
+/* ************************************ */
+/* Digital Bussinesscard project styles */
+/* ************************************ */
+
+html, body {
+    background-color: #23252cff;
     color: white;
 }
 
+.digital-card-container {
+    margin: 200px auto;
+    max-width: 300px;
+    height: 600px;
+    background-color: #1a1b21ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.digital-card-content {
+    padding: 25px;
+}
+
+.bio-info {
+    text-align: center;
+}
+
+.digital-card-footer {
+    background-color: #161619ff;
+}
+
+.btn-container {
+ display: flex;
+ align-content: space-between;
+}
+
+.dc-btn {
+ padding: 8px 30px;
+ border: none;
+ border-radius: 4px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dc-btn-light {
+    background-color: #efefefff;
+}
+
+.dc-btn-blue {
+    margin-left: auto;
+    color: white;
+    background-color: #5093e2ff;
+}
+
+/* ******************** */
+/* Intro project styles */
+/* ******************** */
+
+
+/* html, body {
+    margin: 0;
+    padding: 0;
+    font-family: inter, sans-serif;
+    background-color: #282D35;
+    color: white;
+} */
 
 .nav {
     padding: 20px;
@@ -42,6 +105,9 @@ html, body {
 
 .main-content {
     padding: 20px;
+    background-image: url(./assets/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .custom-list {
